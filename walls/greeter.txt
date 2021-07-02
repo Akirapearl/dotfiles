@@ -1,0 +1,1 @@
+background=/usr/share/backgrounds/i3_default_background.jpg
