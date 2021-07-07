@@ -5,7 +5,7 @@ Personal configs of different window managers.
 
 ![i3 v2](https://github.com/Akirapearl/dotfiles/blob/master/capture/2021-05-13-180436_1414x943_scrot.png)
 
-Last update: 13 May 2021
+Last update: 07 July 2021
 Details & dependencies/requirements: 
 
 Done in [Manjaro](https://manjaro.org/)
