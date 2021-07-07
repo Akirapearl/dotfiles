@@ -3,7 +3,7 @@ Personal configs of different window managers.
 
 ## i3wm
 
-![i3 v1](https://github.com/Akirapearl/dotfiles/blob/main/capture/2021-05-13-180436_1414x943_scrot.png)
+![i3 v2]("https://github.com/Akirapearl/dotfiles/blob/main/capture/2021-05-13-180436_1414x943_scrot.png")
 
 Last update: 13 May 2021
 Details & dependencies/requirements: 
