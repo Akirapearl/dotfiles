@@ -38,6 +38,6 @@ elif [ $install == "b" ]; then
 	ls $dir
 	sleep 0.5
 	mkdir /home/$USER/.config/alacritty/ 
-	cp -r /home/$USER/.config/alacritty/ 
+	cp -r ./alacritty/alacritty.yml /home/$USER/.config/alacritty/ 
 
 	fi

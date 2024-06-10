@@ -11,6 +11,15 @@ Sway
 
 Waybar
 
+### Newest!
+
+Sway installation script (bash), intended for unattended default installation for a Debian 12 
+installation using the aforementioned wayland-based WM. 
+
+	- TLDR; Contains loads of package installation and some minor implementations as fonts or fastfetch using
+	git clone commands etc.
+	- At the time of writing, this newly added script does not apply any dotfiles present within this directory.
+
 ## Requirements
 	> Software stated above
 	* Two nerd fonts (Alacritty)
@@ -60,3 +69,4 @@ sharing knowledge purposes.
 Used resources: 
 - https://www.reddit.com/r/analog/comments/1bg1831/nikon_f2_50mm_f14_flic_aurora_800/ - Default wallpaper.
 - https://github.com/Egosummiki/dotfiles/tree/master/waybar - OG config files for waybar (v.1 for me, first modification 17/05/2024)
+- https://github.com/drewgrif/bookworm-scripts - OG script taken as reference for sway_debian.sh file
