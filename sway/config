@@ -18,17 +18,15 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
+#set $menu dmenu_path | dmenu | xargs swaymsg exec --
+set $menu wofi --show drun
 
 include /etc/sway/config-vars.d/*
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * background /home/ewe/Downloads/dotfiles/images/nikon-f2-50mm-f-1-4-flic-aurora-800-the_arctic_monkey.png fill
-output Virtual-1 {
-	mode 1440x900@60Hz
-}
+output * background /home/melo/Downloads/dotfiles/images/nikon-f2-50mm-f-1-4-flic-aurora-800-the_arctic_monkey.png fill
 
 ### WINDOW BORDER
 default_border none

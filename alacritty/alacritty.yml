@@ -16,7 +16,7 @@ font:
   italic:
     family: JetBrainsMono Nerd Font
     style: Italic
-  size: 10
+  size: 14
 
 colors:
   # Default colors

@@ -6,6 +6,7 @@ echo "Type the letter for the corresponding software you want to install"
 echo "============================================================="
 echo "a) Starship"
 echo "b) Alacritty (requirements, NOT package itself)"
+echo "c) Copy dotfiles directory"
 
 read install
 
@@ -40,4 +41,10 @@ elif [ $install == "b" ]; then
 	mkdir /home/$USER/.config/alacritty/ 
 	cp -r ./alacritty/alacritty.yml /home/$USER/.config/alacritty/ 
 
+elif [ $install == "c" ]; then
+	echo "Moving the contents to .config/..."
+	dots=/home/$USER/.config/
+	cp waybar $dots
+	cp sway $dots
+	cp images/* /home/$USER/Pictures/
 	fi
